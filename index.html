@@ -1,8 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Apology</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       background: #f5f1ee;
       color: #3d3d3d;
@@ -10,14 +16,16 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      padding: 20px;
+      min-height: 100vh;
+      padding: 16px;
+      margin: 0;
     }
 
     .paper {
       background: #fefdfb;
       padding: 40px 45px;
       border-radius: 4px;
+      width: 100%;
       max-width: 480px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.07);
       border-left: 3px solid #d4a574;
@@ -26,7 +34,7 @@
     h1 {
       color: #8b6f47;
       text-align: center;
-      margin-bottom: 32px;
+      margin: 0 0 32px 0;
       font-size: 28px;
       font-weight: normal;
       letter-spacing: 0.5px;
@@ -35,16 +43,14 @@
     h2 {
       color: #5d4e37;
       font-size: 16px;
-      margin-top: 22px;
-      margin-bottom: 8px;
+      margin: 22px 0 8px 0;
       font-weight: 600;
     }
 
     p {
       line-height: 1.7;
       font-size: 15px;
-      margin-top: 0;
-      margin-bottom: 16px;
+      margin: 0 0 16px 0;
     }
 
     .footer {
@@ -53,6 +59,33 @@
       font-size: 13px;
       color: #998866;
       font-style: italic;
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 12px;
+        align-items: flex-start;
+      }
+
+      .paper {
+        padding: 24px 20px;
+        margin-top: 20px;
+      }
+
+      h1 {
+        font-size: 22px;
+        margin-bottom: 24px;
+      }
+
+      h2 {
+        font-size: 15px;
+        margin-top: 18px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 1.6;
+      }
     }
   </style>
 </head>
@@ -68,8 +101,8 @@
     <h2>Why That Wasn't Okay</h2>
     <p>
       I disturbed you unnecessarily - random times pe random messages karke + randomly bohat haphazardly meet krne ko bhi bola tha. Ajj observe kia ki like - You were already dealing with your own stuff, and instead of giving you space, I added more noise. 
-      </p>
-      <p>I was thinking about what I wanted—to talk to you, to see you—without considering what you actually needed at that moment. Every time you saw my message, it probably came with an expectation to respond, and you shouldn't have felt obligated like that. If I had actually paid attention to you, I would've noticed you weren't in the headspace for all this, but I was too caught up in my own stuff. I wasn't being considerate, and that was selfish.
+    </p>
+    <p>I was thinking about what I wanted—to talk to you, to see you—without considering what you actually needed at that moment. Every time you saw my message, it probably came with an expectation to respond, and you shouldn't have felt obligated like that. If I had actually paid attention to you, I would've noticed you weren't in the headspace for all this, but I was too caught up in my own stuff. I wasn't being considerate, and that was selfish.
     </p>
 
     <h2>What I Should've Done</h2>
